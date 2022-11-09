@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "6fd180904e758a88",
+    "type": "split",
+    "children": [
+      {
+        "id": "805d80e263be1248",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffaf86dbb71144f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos/Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0fab659523eae1e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c9095cc7b2867ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c268b9cd234542d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4ce7e3c82c780992",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a2ac10835e17c69",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd3e514de5e531fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "2222415790175309",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65cef170467605fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Comandos/Router.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5f15168a2e675ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Comandos/Router.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d0eaac38137950c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ef3dc84df09a33d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Comandos/Router.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ffaf86dbb71144f6",
+  "lastOpenFiles": [
+    "Trabalhos/Responsas.md",
+    "Comandos/Router.md"
+  ]
+}
