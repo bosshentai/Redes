@@ -1,13 +1,64 @@
 
 ## Mudar nome
-
+```
+Router> enable
+Router# config terminal
+Router(config)# hostname R1
+R1(config)#
+```
 
 ## Adicionar Password
+Requisito minimo 10 Caracteres para todas as passwords
+```
+Router(config)# security passwords min-length 10
+```
 
+Atribuir password para o modo exec privillegiado.
+```
+Router(config): enable secrete <password>
+```
+
+Atriburir <strong>password</strong> a consola, estabelecer um tempo limite, ativar o login e adicionando o comando <strong>logging synchronous</strong> 
+```
+Router(config)# line con 0
+Router(config-line)# password <password>
+Router(config-line)# exec-timeout 5 0 
+Router(config-line)# login
+Router(config-line)# logging synchronous
+Router(config-line)# exit
+Router(config)#
+```
+
+Atribuir <strong>password</strong> a <strong><i>vty</i></strong> , estabelecer um tempo limite, ativar o login e adicionando o  comando <strong>logging synchronous</strong>
+```
+Router(config)# line vty 0 4 
+Router(config-line)# password <password>
+Router(config-line)# exec-timeout 5 0 
+Router(config-line)# login
+Router(config-line)# logging synchronous
+Router(config-line)# exit
+Router(config)
+```
+
+Emita para cifrar todas as password
+```
+Router(config)# service password-encryption
+```
+
+Criar um banner para avisar as pessoas que o acesso nao autorizado.
+```
+Router(config)# banner motd # <message> #
+```
 
 ## Guardar configuração 
 
-
+```
+Router# copy running-config startup-config
+Destination filename [startup-config]?
+Buildin configuration...
+[OK]
+Router#
+```
 ## Configuração Estatico
 
 
