@@ -59,6 +59,24 @@ Buildin configuration...
 [OK]
 Router#
 ```
+ou 
+```
+Router#rw
+
+```
+
+
+## Configuração da Interface
+```
+Router(config)#interface gigabitEthernet 0/0
+Router(config-if)#description Connection to Switch 
+Router(config-if)#ip address 192.168.1.1 255.255.255.0
+Router(config-if)#no shutdow
+Router(config-if)#exit
+Router(config)#exit
+Router#
+```
+
 ## Configuração Estatico
 
 

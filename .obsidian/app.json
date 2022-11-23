@@ -1,1 +1,10 @@
-{}
+{
+  "showFrontmatter": true,
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "pt-PT"
+  ]
+}
