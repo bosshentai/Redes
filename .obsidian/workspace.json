@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ffaf86dbb71144f6",
+            "id": "275759ff11919f6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comandos/Router.md",
+                "file": "Comandos/Switch.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trabalhos/SubRedes.md",
+                "file": "Trabalhos/Responsas.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "a2773ffed601dcea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffaf86dbb71144f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos/Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bd3e514de5e531fc",
@@ -98,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trabalhos/SubRedes.md",
+                "file": "Comandos/Router.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trabalhos/SubRedes.md",
+                "file": "Comandos/Router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trabalhos/SubRedes.md"
+                "file": "Comandos/Router.md"
               }
             }
           }
@@ -149,10 +167,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "74a9c0236cb2c91d",
+  "active": "ffaf86dbb71144f6",
   "lastOpenFiles": [
+    "Comandos/Switch.md",
     "Comandos/Router.md",
-    "README.md",
-    "Trabalhos/Responsas.md"
+    "Trabalhos/Responsas.md",
+    "Trabalhos/SubRedes.md",
+    "README.md"
   ]
 }

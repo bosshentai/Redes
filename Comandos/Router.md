@@ -77,7 +77,14 @@ Router(config)#exit
 Router#
 ```
 
+
 ## Configuração Estatico
+
+## Criar Rotas
+```
+
+```
+
 
 
 ## Configuração Dinamico
@@ -92,3 +99,13 @@ R2(config-router)#network 192.168.0.0
 R2(config-router)#passive-interface gi0/0
 ```
 
+
+# DHCP
+```
+ip dhcp excluded-address 192.168.0.1 192.168.0.50
+ip dhcp pool pool_name
+network 192.168.0.0 255.255.255.0
+default-router 192.168.0.1
+
+dns-server 8.8.8.8
+```
