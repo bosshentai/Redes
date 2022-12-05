@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a2773ffed601dcea",
@@ -169,9 +170,9 @@
   },
   "active": "ffaf86dbb71144f6",
   "lastOpenFiles": [
-    "Comandos/Switch.md",
-    "Comandos/Router.md",
     "Trabalhos/Responsas.md",
+    "Comandos/Router.md",
+    "Comandos/Switch.md",
     "Trabalhos/SubRedes.md",
     "README.md"
   ]

@@ -82,7 +82,8 @@ Router#
 
 ## Criar Rotas
 ```
-
+router(config)# ip route <ip rede> <mascara> <ip do salto>
+router(config)# ip route 192.168.3.0 255.255.255.0 192.168.2.2
 ```
 
 
