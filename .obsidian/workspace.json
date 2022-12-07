@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "74a9c0236cb2c91d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trabalhos/Responsas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a2773ffed601dcea",
@@ -117,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comandos/Router.md",
+                "file": "Comandos/Switch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Comandos/Router.md",
+                "file": "Comandos/Switch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Comandos/Router.md"
+                "file": "Comandos/Switch.md"
               }
             }
           }
@@ -168,10 +155,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ffaf86dbb71144f6",
+  "active": "275759ff11919f6a",
   "lastOpenFiles": [
-    "Trabalhos/Responsas.md",
     "Comandos/Router.md",
+    "Trabalhos/Responsas.md",
     "Comandos/Switch.md",
     "Trabalhos/SubRedes.md",
     "README.md"
