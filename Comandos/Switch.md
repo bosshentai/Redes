@@ -35,8 +35,8 @@ Switch(config)
 ## Configurar Trunk
 ```
 Switch(config)# interface range gigabitEther 0/1-2
-Swicth(config-if-range)# switch mode trunk
-Switch(config-if-range)# trunk allowed vlan 500,501,502
+Swicth(config-if-range)#switchport  mode trunk
+Switch(config-if-range)#switchport trunk allowed vlan 500,501,502
 Switch(config-if-range)#exit
 Switch(config)#
 ```
