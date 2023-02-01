@@ -100,6 +100,14 @@ R2(config-router)#network 192.168.0.0
 R2(config-router)#passive-interface gi0/0
 ```
 
+#### OSPF
+```
+R2(config)#router ospf 10
+R2(config-router)#passive-interface gigabitEthernet 0/0
+R2(config-router)#network 192.168.1.0 0.0.0.3 area 0 
+R2(config-router)#network 192.168.0.0 0.0.0.255 area 0
+R2(config-router)#network 192.168.0.0 0.0.0.31 area 0
+```
 
 # DHCP
 ```
@@ -110,3 +118,68 @@ default-router 192.168.0.1
 
 dns-server 8.8.8.8
 ```
+
+
+# ACL
+
+```
+r2(config)#access-list 1 deny host 192.168.1.3
+r2(config)#access-list 1 permit any
+r2(config)#acess-list 1 deny any
+```
+
+### Depois
+```
+r2(config)#interface giga 0/0
+r2(config-if)#ip access-group 1 out
+```
+
+
+
+# Voip
+
+## router
+
+```
+ip dhcp excluded-address 192.168.20.1 192.168.20.30
+
+ip dhcp pool Voice
+network 192.168.20.0 255.255.255.0
+default-router 192.168.20.1
+option 150 ip 192.168.20.1
+dns-server 8.8.8.8
+```
+
+### configurar o telefone da sua casa
+
+```
+telephony-service
+max-ephones 5 (total de telefone fisicos)
+max-dn 5 (total de numeros de telefone)
+ip source-address 192.168.20.1 port 2000
+```
+
+```
+ephone-dn 1
+number 200
+
+ephone-dn 2
+number 201
+
+ephone-dn 3
+number 202
+
+ephone-dn 4
+number 203
+
+```
+
+```
+ephone 1 
+button 1:2
+
+ephone 2 
+button 1:1
+```
+
+

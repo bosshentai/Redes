@@ -6,6 +6,7 @@
       {
         "id": "805d80e263be1248",
         "type": "tabs",
+        "dimension": 50.970873786407765,
         "children": [
           {
             "id": "275759ff11919f6a",
@@ -24,6 +25,7 @@
       {
         "id": "a2773ffed601dcea",
         "type": "tabs",
+        "dimension": 49.029126213592235,
         "children": [
           {
             "id": "ffaf86dbb71144f6",
@@ -168,8 +170,8 @@
   "active": "275759ff11919f6a",
   "lastOpenFiles": [
     "Comandos/Router.md",
-    "Trabalhos/Responsas.md",
     "Comandos/Switch.md",
+    "Trabalhos/Responsas.md",
     "Trabalhos/SubRedes.md",
     "README.md"
   ]

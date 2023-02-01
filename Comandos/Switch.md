@@ -57,3 +57,12 @@ Switch(config-if-range)# switchport mode access
 Switch(config-if-range)# switchport access vlan 500
 Swicth(config-if-range)# exit
 ```
+
+
+### Vlan configure voip 
+```
+interface FastEthernet 0/1
+switchport access vlan 10
+
+switchport voice vlan 20 
+```
